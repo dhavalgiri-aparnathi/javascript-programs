@@ -1,0 +1,48 @@
+<!-- 
+
+    Datatypes in JS:
+
+        - primitive
+        - non primitive / object type
+
+-->
+
+<script>
+
+    // Primitive types: nn bb ss u
+
+    let a = 10 // number
+    let b = null // null
+
+    let c = BigInt("563") + BigInt("7")// BigInt
+    let d = true // boolean
+
+    let e = "Hello" // string
+    let f = Symbol("This is a symbol") // symbol
+
+    let g = undefined // undefined
+
+    console.log(a)
+    console.log(b)
+    console.log(c)
+    console.log(d)
+    console.log(e)
+    console.log(f)
+    console.log(g)
+
+    // Non Primitive / Object types:
+
+    const dictionary = {
+        "name": "testname",
+        "age": 19,
+        "email": "testmail@gmail.com",
+        "country": "india",
+        "married": false
+    }
+
+    console.log(dictionary)
+    console.log(dictionary["name"])
+    console.log(dictionary["married"])
+    console.log(dictionary["phone"]) // gives undefined
+    
+</script>
