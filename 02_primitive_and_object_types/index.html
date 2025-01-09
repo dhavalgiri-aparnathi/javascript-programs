@@ -30,19 +30,33 @@
     console.log(f)
     console.log(g)
 
+    // prints the type of variable
+
+    console.log(typeof a)
+    console.log(typeof b)
+    console.log(typeof c)
+    console.log(typeof d)
+    console.log(typeof e)
+    console.log(typeof f)
+    console.log(typeof g)
+
     // Non Primitive / Object types:
 
     const dictionary = {
-        "name": "testname",
-        "age": 19,
-        "email": "testmail@gmail.com",
-        "country": "india",
-        "married": false
+        name: "testname",
+        age: 19,
+        email: "testmail@gmail.com",
+        country: "india",
+        married: false
     }
 
     console.log(dictionary)
-    console.log(dictionary["name"])
-    console.log(dictionary["married"])
-    console.log(dictionary["phone"]) // gives undefined
+    console.log(dictionary['name'])
+    console.log(dictionary['married'])
+    console.log(dictionary['phone']) // gives undefined
     
+    dictionary['phone'] = 9988776655 // adds to dictionary
+
+    console.log(dictionary)
+ 
 </script>
