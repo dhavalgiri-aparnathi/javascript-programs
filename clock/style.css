@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: black;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: black;
+}
+
+.heading {
+	color: white;
+	font-family: 'Trebuchet MS';
+	color: #00FF2A;
+	margin-top: 5vh;
+}
+
+#clock-container {
+	color: white;
+	font-family: 'Trebuchet MS';
+	font-size: 2em;
+	color: #00FF2A;
+	border: 5px solid #00FF2A;
+	padding: 40px;
+	width: 200px;
+	text-align: center;
+	border-radius: 25px;
+	margin-top: 5vh;
+}
